@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+#titulo-menu-superior{
+    color: aliceblue;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menu-superior{
+    color: aliceblue;
+    margin-left: 150px;
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+#menu-superior{
+    background-color: black;
+}
+
+#menu-informacional{
+    background-color: #eaece5;
+    display:grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+#secaoVideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoInformativo{
+    display: flex;
+    align-items: center;
+}
+
+#titulo-video{
+    color: #2478A0;
+    margin-top: 50px;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrossel{
+    color: #eaece5;
+    font-family: 'inter';
+    font-size: 30px;
+    text-align: center;
+}
+
+#div-cards{
+    margin-top: 25px;
+    margin-left: 50px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.cards{
+    align-items: center;
+}
+
+#setaesquerda{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
+
+.setas{
+    margin-top: 25%;
+    cursor: pointer;
+}
+.setas:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titutloFormulario{
+    font-size: 30px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 413px;
+    height: 50px;
+    color: #383838;
+    border-radius: 8px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    height: 50px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #318fb8;
+    color: aliceblue;
+    transform:  translateY(-7px);
+    transition-duration: 0.8s;
+    box-shadow: 0px 5px 20px #24586f;
+
+}
